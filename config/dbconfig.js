@@ -5,6 +5,6 @@ module.exports = new Sequelize({
   password: "mysql",
   host: "localhost",
   port: 3306,
-  database: 'pagination',
+  database: "pagination",
   logging: (log) => console.log("logging:"),
 });
