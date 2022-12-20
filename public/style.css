@@ -1,4 +1,4 @@
-table {
+/* table {
   width: 100%;
   border: 1px solid #fff;
   border-collapse: collapse;
@@ -23,15 +23,13 @@ td {
   padding: 6px 8px;
   height: 40px;
 }
-
-a:hover {
-  background-color: #555;
+*/
+.select {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-a:active {
-  background-color: black;
-}
-
-a:visited {
-  background-color: #ccc;
+select {
+  width: 5rem !important;
 }
